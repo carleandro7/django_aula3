@@ -189,4 +189,8 @@ passo 28: em listar_aluno.html altere o codigo para ficar assim em deltear aluno
 
 
 
+para adicionar uma imagem: 
+1. coloque a imagem dentro da pasta /templates/img
+2. e no html coloque
+<img src="{% static 'img/nome_da_imagem.extensao' %}">
 
