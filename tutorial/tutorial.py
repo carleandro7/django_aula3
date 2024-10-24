@@ -22,7 +22,7 @@ INSTALLED_APPS = [
     'vendas', #nome da aplicação criada
 ]
 
-passo 6: adione na urls.py a seguinte linha do projeto
+passo 6: adicione na urls.py a seguinte linha do projeto
 path('vendas/', include('vendas.urls')),
 *no import altere a linha adicionado o include
 from django.urls import path, include
