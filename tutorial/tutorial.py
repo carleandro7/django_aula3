@@ -110,6 +110,10 @@ class FichaForm(forms.ModelForm):
         fields = ['data_compra', 'valor', 'aluno']
 
 
+#comando no terminal
+python manage.py makemigrations
+python manage.py migrate
+
 passo 15: adicione as urls para iniciar a criação das paginas:
 obs: vamos liberando as funções na url a medida que forem criando na views.py
 from django.urls import path
